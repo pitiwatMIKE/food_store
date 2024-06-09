@@ -73,7 +73,7 @@ export default function ShopingCartDetail() {
           <thead className="text-xs text-gray-700 uppercase bg-gray-50 ">
             <tr>
               {headerPorductList.map((header) => (
-                <th scope="col" className="px-6 py-3">
+                <th key={header} scope="col" className="px-6 py-3">
                   {header}
                 </th>
               ))}
@@ -81,7 +81,7 @@ export default function ShopingCartDetail() {
           </thead>
           <tbody>
             {shoppingCartList.map((item) => (
-              <tr className="bg-white border-b  ">
+              <tr key={item.itemDetail.id} className="bg-white border-b  ">
                 <th
                   scope="row"
                   className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
@@ -105,7 +105,7 @@ export default function ShopingCartDetail() {
               <thead className="text-xs text-gray-700 uppercase bg-gray-50 ">
                 <tr>
                   {headerDiscountList.map((header) => (
-                    <th scope="col" className="px-6 py-3">
+                    <th key={header} scope="col" className="px-6 py-3">
                       {header}
                     </th>
                   ))}
@@ -113,7 +113,7 @@ export default function ShopingCartDetail() {
               </thead>
               <tbody>
                 {discoutDetail.map((item) => (
-                  <tr className="bg-white border-b  ">
+                  <tr key={item.promotionName} className="bg-white border-b  ">
                     <th
                       scope="row"
                       className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
