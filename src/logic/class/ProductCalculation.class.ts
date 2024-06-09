@@ -38,12 +38,10 @@ export class ProductCalculation {
   }
 
   private sumTotalPriceAllProducts() {
-    this.totalPrice = this.items.reduce((acc, item) => {
-      if (item.totalPrice) {
-        return acc + item.totalPrice;
-      }
-      return acc;
-    }, 0);
+    this.totalPrice = this.items.reduce(
+      (acc, item) => acc + item.totalPrice,
+      0
+    );
   }
 
   private calculationWithDiscount() {
