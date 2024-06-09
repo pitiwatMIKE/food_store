@@ -1,4 +1,9 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# The important code part is in [src/logic/...]
+
+https://github.com/pitiwatMIKE/food_store/tree/main/src/logic/class
+https://github.com/pitiwatMIKE/food_store/tree/main/src/logic/promotion
+
+
 # Demo Example Website
 
 [https://food-store-lac.vercel.app]
