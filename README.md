@@ -20,6 +20,8 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## For test
+https://github.com/pitiwatMIKE/food_store/tree/main/src/test
+
 ```bash
 npm run test
 or
